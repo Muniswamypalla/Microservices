@@ -1,0 +1,8 @@
+Normal:
+http://localhost:8100/currency-converter/from/USD/to/INR/quantity/3
+
+Fegin:
+http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/3
+
+API Gateway With Fegin:
+http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/3
