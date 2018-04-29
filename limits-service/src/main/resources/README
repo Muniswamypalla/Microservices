@@ -1,0 +1,7 @@
+http://localhost:2018/limits
+
+refresh configuration:
+http://localhost:8080/actuator/refresh
+
+refresh configuration using bus:
+http://localhost:2018/actuator/bus-refresh (POST method)
