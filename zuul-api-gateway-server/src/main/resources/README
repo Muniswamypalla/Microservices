@@ -1,0 +1,7 @@
+
+SET RABBIT_URI=amqp://localhost
+java -jar zipkin-server-2.8.2-exec.jar
+
+zipkin url:
+
+http://localhost:9411/zipkin/
