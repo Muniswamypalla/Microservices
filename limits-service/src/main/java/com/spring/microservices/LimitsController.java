@@ -13,7 +13,6 @@ public class LimitsController {
 	private LimitsConfiguration limitsConfig;
 
 	@GetMapping("/limits")
-	@HystrixCommand(fallbackMethod = "fault-tolerance")
 	public LimitsConfiguration retriveConfigFromCloud() {
 		return new LimitsConfiguration(limitsConfig.getMin(), limitsConfig.getMax());
 	}
